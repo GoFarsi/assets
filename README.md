@@ -1,1 +1,1 @@
-# decentralize-assets
+# Decentralize assets

@@ -11,3 +11,7 @@ func New() *Asset {
 	asset := &Asset{chains: chains}
 	return asset
 }
+
+func (a *Asset) GetTotalChainsSize() int {
+	return len(a.chains)
+}

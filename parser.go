@@ -10,6 +10,7 @@ import (
 var assetsByte []byte
 
 // parseAssetsByteToArray parse the byte contents of yaml file to array of entity.Chain
-func parseAssetsByteToArray(chains *[]*entity.Chain) {
+func parseAssetsByteToArray() (chains []*entity.Chain) {
 	_ = yaml.Unmarshal(assetsByte, &chains)
+	return chains
 }

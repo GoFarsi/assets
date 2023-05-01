@@ -6,25 +6,24 @@ import (
 )
 
 // GetPaginatedChainList returns paginated list of entity.Chain with pageNumber and pageSize params
-func GetPaginatedChainList(pageNumber, pageSize int) (chains []*entity.Chain, totalChains int, err error) {
-	parseAssetsByteToArray(&chains)
-	totalChains = len(chains)
+func (a *Asset) GetPaginatedChainList(pageNumber, pageSize int) (result []*entity.Chain, totalChains int, err error) {
+	totalChains = len(a.chains)
 	pageNumber, err = validatePageNumber(pageNumber)
 	if err != nil {
 		return nil, totalChains, err
 	}
 
 	start := (pageNumber - 1) * pageSize
-	if start > len(chains) {
+	if start > totalChains {
 		return nil, totalChains, nil
 	}
 
 	end := start + pageSize
-	if end > len(chains) {
-		end = len(chains)
+	if end > totalChains {
+		end = totalChains
 	}
 
-	return chains[start:end], totalChains, nil
+	return a.chains[start:end], totalChains, nil
 }
 
 // validatePageNumber will check the value of pageNumber to be greater than 0

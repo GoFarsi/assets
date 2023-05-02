@@ -6,9 +6,15 @@ type Asset struct {
 	chains []*entity.Chain
 }
 
-func New() *Asset {
+func New(assetsRepo string) *Asset {
 	chains := parseAssetsByteToArray()
 	asset := &Asset{chains: chains}
+
+	switch assetsRepo {
+	case GithubRepoUrl:
+		asset.AdaptLogoPath(formatFilePathByGithubRepo)
+	}
+
 	return asset
 }
 

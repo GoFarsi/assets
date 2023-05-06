@@ -4,6 +4,7 @@
   symbol: ETH
   logo_png: resources/img/bc08bb60-ebfb-11ed-bd6d-bce92fb9ddda.png
   chain_id: 1
+  type: main
   assets:
     - id: bc0ac180-ebfb-11ed-bd6d-bce92fb9ddda
       name: TrueUSD

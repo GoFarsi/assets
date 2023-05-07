@@ -18,7 +18,7 @@ func (a *Asset) AdaptLogoPath(patternFunc logoPathPattern) {
 	var wg sync.WaitGroup
 
 	adaptedChains := make(chan *entity.Chain)
-	for _, chain := range a.chains {
+	for _, chain := range a.Chains {
 		wg.Add(1)
 		go func(chain *entity.Chain) {
 			defer wg.Done()

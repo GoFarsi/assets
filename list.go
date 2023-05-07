@@ -5,9 +5,9 @@ import (
 	"github.com/GoFarsi/assets/entity"
 )
 
-// GetPaginatedChainList returns paginated list of entity.Chain with pageNumber and pageSize params
-func (a *Asset) GetPaginatedChainList(pageNumber, pageSize int) (result []*entity.Chain, totalChains int, err error) {
-	totalChains = len(a.chains)
+// GetPaginatedChainList returns paginated list of chains with pageNumber and pageSize params
+func GetPaginatedChainList(chains []*entity.Chain, pageNumber, pageSize int) (result []*entity.Chain, totalChains int, err error) {
+	totalChains = len(chains)
 	pageNumber, err = validatePageNumber(pageNumber)
 	if err != nil {
 		return nil, totalChains, err
@@ -23,7 +23,7 @@ func (a *Asset) GetPaginatedChainList(pageNumber, pageSize int) (result []*entit
 		end = totalChains
 	}
 
-	return a.chains[start:end], totalChains, nil
+	return chains[start:end], totalChains, nil
 }
 
 // validatePageNumber will check the value of pageNumber to be greater than 0

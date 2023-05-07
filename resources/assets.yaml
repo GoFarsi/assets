@@ -15,9 +15,9 @@
       metaData: null
       description: "Tether (USDT) is a cryptocurrency and operates on the Ethereum platform. Tether has a current supply of 85,090,638,896.26192 with 82,078,431,886.15607 in circulation. The last known price of Tether is 1.00169018 USD and is up 0.08 over the last 24 hours. It is currently trading on 52717 active market(s) with $25,579,749,352.77 traded over the last 24 hours. More information can be found at https://tether.to."
       issuer: ""
-      links: {}
+      links: { }
       logo_png: resources/img/bc2cd3b5-ebfb-11ed-bd6d-bce92fb9ddda.png
-      types: []
+      types: [ ]
       standards:
         - ERC20
     - id: ae43c0bd-2587-4384-936d-24cc2e5a1b0c
@@ -27,13 +27,59 @@
         primary: 0x6b175474e89094c44da98b954eedeac495271d0f
       decimals: 18
       metaData: null
-      description: ""
-      issuer: "Dai (DAI) is a cryptocurrency and operates on the Ethereum platform. Dai has a current supply of 4,877,925,841.414499. The last known price of Dai is 1.00011162 USD and is up 0.04 over the last 24 hours. It is currently trading Dai (DAI) is a cryptocurrency and operates on the Ethereum platform. Dai has a current supply of 4,877,925,841.414499. The last known price of Dai is 1.00011162 USD and is up 0.04 over the last 24 hours. It is currently trading on 2254 active market(s) with $189,581,774.20 traded over the last 24 hours. More information can be found at http://www.makerdao.com/. on 2254 active market(s) with $189,581,774.20 traded over the last 24 hours. More information can be found at http://www.makerdao.com/."
+      description: "Dai (DAI) is a cryptocurrency and operates on the Ethereum platform. Dai has a current supply of 4,877,925,841.414499. The last known price of Dai is 1.00011162 USD and is up 0.04 over the last 24 hours. It is currently trading Dai (DAI) is a cryptocurrency and operates on the Ethereum platform. Dai has a current supply of 4,877,925,841.414499. The last known price of Dai is 1.00011162 USD and is up 0.04 over the last 24 hours. It is currently trading on 2254 active market(s) with $189,581,774.20 traded over the last 24 hours. More information can be found at http://www.makerdao.com/. on 2254 active market(s) with $189,581,774.20 traded over the last 24 hours. More information can be found at http://www.makerdao.com/."
+      issuer: ""
       links: { }
       logo_png: resources/img/ae43c0bd-2587-4384-936d-24cc2e5a1b0c.png
       types: [ ]
       standards:
         - ERC20
+    - id: db4461d5-4747-436c-9d7c-51c88e597813
+      name: Binance Coin
+      symbol: BNB
+      contracts:
+        primary: 0xb8c77482e45f1f44de1745f52c74426c631bdd52
+      decimals: 18
+      metaData: null
+      description: "BNB (BNB) is a cryptocurrency . BNB has a current supply of 155,861,517.8423139. The last known price of BNB is 323.52558777 USD and is down -0.67 over the last 24 hours. It is currently trading on 1337 active market(s) with $484,020,180.76 traded over the last 24 hours. More information can be found at https://bnbchain.org/en."
+      issuer: ""
+      links: { }
+      logo_png: resources/img/db4461d5-4747-436c-9d7c-51c88e597813.png
+      types: [ ]
+      standards:
+    - id: fa7bfc08-25dd-477d-bb83-bf0a1039b446
+      name: USD Coin
+      symbol: USDC
+      contracts:
+        primary: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+      decimals: 6
+      metaData: null
+      description: "USD Coin (USDC) is a cryptocurrency and operates on the Ethereum platform. USD Coin has a current supply of 30,393,727,899.476986. The last known price of USD Coin is 0.99998692 USD and is up 0.01 over the last 24 hours. It is currently trading on 12204 active market(s) with $3,512,361,545.19 traded over the last 24 hours. More information can be found at https://www.centre.io/usdc."
+      issuer: ""
+      links: { }
+      logo_png: resources/img/fa7bfc08-25dd-477d-bb83-bf0a1039b446.png
+      types: [ ]
+      standards:
+- id: cfc035ff-52c3-4357-bebd-02ad6813d123
+  parent_id: ""
+  name: BNB Smart Chain (BEP20)
+  symbol: BNB
+  logo_png: resources/img/db4461d5-4747-436c-9d7c-51c88e597813.png
+  type: main
+  assets:
+    - id: c4ed735b-9c87-4735-a029-fb11fef57ecb
+      name: XRP Coin
+      symbol: XRP
+      contracts:
+        primary: 0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe
+      decimals: 6
+      metaData: null
+      description: "XRP (XRP) is a cryptocurrency . XRP has a current supply of 99,988,965,239 with 51,837,820,505 in circulation. The last known price of XRP is 0.45806794 USD and is down -1.31 over the last 24 hours. It is currently trading on 941 active market(s) with $570,611,043.91 traded over the last 24 hours. More information can be found at https://xrpl.org/."
+      issuer: ""
+      links: { }
+      logo_png: resources/img/c4ed735b-9c87-4735-a029-fb11fef57ecb.png
+      types: []
+      standards:
 - id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1
   parent_id: ""
   name: Goerli

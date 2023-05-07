@@ -17,3 +17,49 @@ type Chain struct {
 	Assets   []*Asset  `yaml:"assets"`
 	Type     ChainType `yaml:"type"`
 }
+
+func NewChain(name, symbol string, chainType ChainType, chainId string, assets ...*Asset) *Chain {
+	return &Chain{
+		Name:    name,
+		Symbol:  symbol,
+		ChainId: chainId,
+		Type:    chainType,
+		Assets:  assets,
+	}
+}
+
+func (c *Chain) GetName() string {
+	return c.Name
+}
+
+func (c *Chain) GetSymbol() string {
+	return c.Symbol
+}
+
+func (c *Chain) GetChainId() string {
+	return c.ChainId
+}
+
+func (c *Chain) GetChainType() ChainType {
+	return c.Type
+}
+
+func (c *Chain) isMainNet() bool {
+	if c.Type == MainChainType {
+		return true
+	}
+
+	return false
+}
+
+func (c *Chain) isTestNet() bool {
+	if c.Type == TestChainType {
+		return true
+	}
+
+	return false
+}
+
+func (c *Chain) GetChainAssets() []*Asset {
+	return c.Assets
+}

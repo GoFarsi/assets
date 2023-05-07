@@ -46,6 +46,28 @@ func (a *AssetRepo) GetMainChains(option *Option) ([]*entity.Chain, error) {
 	return applyOptionsOnChains(chains, option)
 }
 
+// GetChain return chain by its id
+func (a *AssetRepo) GetChain(Id string) *entity.Chain {
+	for _, c := range a.Chains {
+		if c.ChainId == Id {
+			return c
+		}
+	}
+
+	return nil
+}
+
+// GetChainBySymbol return chain by its symbol
+func (a *AssetRepo) GetChainBySymbol(symbol string) *entity.Chain {
+	for _, c := range a.Chains {
+		if c.Symbol == symbol {
+			return c
+		}
+	}
+
+	return nil
+}
+
 // applyOptionsOnChains will check Options passed to requests and apply theme to result chains
 func applyOptionsOnChains(chains []*entity.Chain, option *Option) ([]*entity.Chain, error) {
 

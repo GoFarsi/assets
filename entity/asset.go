@@ -1,5 +1,7 @@
 package entity
 
+import "strings"
+
 type ContractType string
 type LinkType string
 
@@ -28,4 +30,48 @@ type Asset struct {
 	LogoPNG     string                  `yaml:"logo_png"`
 	Types       []string                `yaml:"types"`
 	Standards   []string                `yaml:"standards"`
+}
+
+func (a *Asset) GetName() string {
+	return a.Name
+}
+
+func (a *Asset) GetSymbol() string {
+	return a.Symbol
+}
+
+func (a *Asset) GetPrimaryContractAddress() string {
+	return a.Contracts[PrimaryContractType]
+}
+
+func (a *Asset) GetProxyContractAddress() string {
+	return a.Contracts[ProxyContractType]
+}
+
+func (a *Asset) GetDecimals() int {
+	return a.Decimals
+}
+
+func (a *Asset) GetDescription() string {
+	return a.Description
+}
+
+func (a *Asset) hasErc20() bool {
+	for _, s := range a.Standards {
+		if strings.ToUpper(s) == "ERC20" {
+			return true
+		}
+	}
+
+	return false
+}
+
+func (a *Asset) hasErc721() bool {
+	for _, s := range a.Standards {
+		if strings.ToUpper(s) == "ERC721" {
+			return true
+		}
+	}
+
+	return false
 }

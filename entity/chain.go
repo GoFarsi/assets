@@ -44,7 +44,7 @@ func (c *Chain) GetChainType() ChainType {
 	return c.Type
 }
 
-func (c *Chain) isMainNet() bool {
+func (c *Chain) IsMainNet() bool {
 	if c.Type == MainChainType {
 		return true
 	}
@@ -52,7 +52,7 @@ func (c *Chain) isMainNet() bool {
 	return false
 }
 
-func (c *Chain) isTestNet() bool {
+func (c *Chain) IsTestNet() bool {
 	if c.Type == TestChainType {
 		return true
 	}

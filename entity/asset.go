@@ -56,7 +56,7 @@ func (a *Asset) GetDescription() string {
 	return a.Description
 }
 
-func (a *Asset) hasErc20() bool {
+func (a *Asset) HasErc20() bool {
 	for _, s := range a.Standards {
 		if strings.ToUpper(s) == "ERC20" {
 			return true
@@ -66,7 +66,7 @@ func (a *Asset) hasErc20() bool {
 	return false
 }
 
-func (a *Asset) hasErc721() bool {
+func (a *Asset) HasErc721() bool {
 	for _, s := range a.Standards {
 		if strings.ToUpper(s) == "ERC721" {
 			return true

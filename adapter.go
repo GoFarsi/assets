@@ -14,7 +14,7 @@ const (
 type logoPathPattern func(path string) string
 
 // adaptLogoPath will format all logo paths of chains and assets by using specific pattern
-func (a *Asset) adaptLogoPath(patternFunc logoPathPattern) {
+func (a *AssetRepo) adaptLogoPath(patternFunc logoPathPattern) {
 	var wg sync.WaitGroup
 
 	adaptedChains := make(chan *entity.Chain)

@@ -4,7 +4,7 @@ import (
 	"github.com/GoFarsi/assets/entity"
 )
 
-type Asset struct {
+type AssetRepo struct {
 	Chains []*entity.Chain
 }
 
@@ -17,11 +17,11 @@ type Option struct {
 	*Pagination
 }
 
-func New(assetsRepo string) *Asset {
+func New(repoAddress string) *AssetRepo {
 	chains := parseAssetsByteToArray()
-	asset := &Asset{Chains: chains}
+	asset := &AssetRepo{Chains: chains}
 
-	switch assetsRepo {
+	switch repoAddress {
 	case GithubRepoUrl:
 		asset.adaptLogoPath(formatFilePathByGithubRepo)
 	}
@@ -30,18 +30,18 @@ func New(assetsRepo string) *Asset {
 }
 
 // GetTotalChainsSize return len of all chains in assets.yaml
-func (a *Asset) GetTotalChainsSize() int {
+func (a *AssetRepo) GetTotalChainsSize() int {
 	return len(a.Chains)
 }
 
 // GetTestChains return test chains (networks) in assets.yaml
-func (a *Asset) GetTestChains(option *Option) ([]*entity.Chain, error) {
+func (a *AssetRepo) GetTestChains(option *Option) ([]*entity.Chain, error) {
 	chains := getChainsByType(a.Chains, entity.TestChainType)
 	return applyOptionsOnChains(chains, option)
 }
 
 // GetMainChains return main chains (networks) in assets.yaml
-func (a *Asset) GetMainChains(option *Option) ([]*entity.Chain, error) {
+func (a *AssetRepo) GetMainChains(option *Option) ([]*entity.Chain, error) {
 	chains := getChainsByType(a.Chains, entity.MainChainType)
 	return applyOptionsOnChains(chains, option)
 }

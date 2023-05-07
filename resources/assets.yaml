@@ -47,6 +47,19 @@
       logo_png: resources/img/db4461d5-4747-436c-9d7c-51c88e597813.png
       types: [ ]
       standards:
+    - id: fa7bfc08-25dd-477d-bb83-bf0a1039b446
+      name: USD Coin
+      symbol: USDC
+      contracts:
+        primary: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+      decimals: 6
+      metaData: null
+      description: "USD Coin (USDC) is a cryptocurrency and operates on the Ethereum platform. USD Coin has a current supply of 30,393,727,899.476986. The last known price of USD Coin is 0.99998692 USD and is up 0.01 over the last 24 hours. It is currently trading on 12204 active market(s) with $3,512,361,545.19 traded over the last 24 hours. More information can be found at https://www.centre.io/usdc."
+      issuer: ""
+      links: { }
+      logo_png: resources/img/fa7bfc08-25dd-477d-bb83-bf0a1039b446.png
+      types: [ ]
+      standards:
 - id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1
   parent_id: ""
   name: Goerli

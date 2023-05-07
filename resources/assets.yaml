@@ -60,6 +60,26 @@
       logo_png: resources/img/fa7bfc08-25dd-477d-bb83-bf0a1039b446.png
       types: [ ]
       standards:
+- id: cfc035ff-52c3-4357-bebd-02ad6813d123
+  parent_id: ""
+  name: BNB Smart Chain (BEP20)
+  symbol: BNB
+  logo_png: resources/img/db4461d5-4747-436c-9d7c-51c88e597813.png
+  type: main
+  assets:
+    - id: c4ed735b-9c87-4735-a029-fb11fef57ecb
+      name: XRP Coin
+      symbol: XRP
+      contracts:
+        primary: 0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe
+      decimals: 6
+      metaData: null
+      description: "XRP (XRP) is a cryptocurrency . XRP has a current supply of 99,988,965,239 with 51,837,820,505 in circulation. The last known price of XRP is 0.45806794 USD and is down -1.31 over the last 24 hours. It is currently trading on 941 active market(s) with $570,611,043.91 traded over the last 24 hours. More information can be found at https://xrpl.org/."
+      issuer: ""
+      links: { }
+      logo_png: resources/img/c4ed735b-9c87-4735-a029-fb11fef57ecb.png
+      types: []
+      standards:
 - id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1
   parent_id: ""
   name: Goerli

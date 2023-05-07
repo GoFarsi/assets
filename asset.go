@@ -23,7 +23,7 @@ func New(assetsRepo string) *Asset {
 
 	switch assetsRepo {
 	case GithubRepoUrl:
-		asset.AdaptLogoPath(formatFilePathByGithubRepo)
+		asset.adaptLogoPath(formatFilePathByGithubRepo)
 	}
 
 	return asset

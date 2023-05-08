@@ -30,6 +30,8 @@ type Asset struct {
 	LogoPNG     string                  `yaml:"logo_png"`
 	Types       []string                `yaml:"types"`
 	Standards   []string                `yaml:"standards"`
+
+	ChainUUID string
 }
 
 func (a *Asset) GetName() string {

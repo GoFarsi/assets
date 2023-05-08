@@ -1,4 +1,4 @@
-- id: bc08bb60-ebfb-11ed-bd6d-bce92fb9ddda
+bc08bb60-ebfb-11ed-bd6d-bce92fb9ddda:
   parent_id: ""
   name: Ethereum
   symbol: ETH
@@ -6,7 +6,7 @@
   chain_id: 1
   type: main
   assets:
-    - id: bc2cd3b5-ebfb-11ed-bd6d-bce92fb9ddda
+    bc2cd3b5-ebfb-11ed-bd6d-bce92fb9ddda:
       name: Tether
       symbol: USDT
       contracts:
@@ -20,7 +20,7 @@
       types: [ ]
       standards:
         - ERC20
-    - id: ae43c0bd-2587-4384-936d-24cc2e5a1b0c
+    ae43c0bd-2587-4384-936d-24cc2e5a1b0c:
       name: Dai
       symbol: DAI
       contracts:
@@ -34,7 +34,7 @@
       types: [ ]
       standards:
         - ERC20
-    - id: db4461d5-4747-436c-9d7c-51c88e597813
+    db4461d5-4747-436c-9d7c-51c88e597813:
       name: Binance Coin
       symbol: BNB
       contracts:
@@ -47,7 +47,7 @@
       logo_png: resources/img/db4461d5-4747-436c-9d7c-51c88e597813.png
       types: [ ]
       standards:
-    - id: fa7bfc08-25dd-477d-bb83-bf0a1039b446
+    fa7bfc08-25dd-477d-bb83-bf0a1039b446:
       name: USD Coin
       symbol: USDC
       contracts:
@@ -60,14 +60,14 @@
       logo_png: resources/img/fa7bfc08-25dd-477d-bb83-bf0a1039b446.png
       types: [ ]
       standards:
-- id: cfc035ff-52c3-4357-bebd-02ad6813d123
+cfc035ff-52c3-4357-bebd-02ad6813d123:
   parent_id: ""
   name: BNB Smart Chain (BEP20)
   symbol: BNB
   logo_png: resources/img/db4461d5-4747-436c-9d7c-51c88e597813.png
   type: main
   assets:
-    - id: c4ed735b-9c87-4735-a029-fb11fef57ecb
+    c4ed735b-9c87-4735-a029-fb11fef57ecb:
       name: XRP Coin
       symbol: XRP
       contracts:
@@ -80,7 +80,7 @@
       logo_png: resources/img/c4ed735b-9c87-4735-a029-fb11fef57ecb.png
       types: []
       standards:
-- id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1
+f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   parent_id: ""
   name: Goerli
   symbol: ETH
@@ -88,7 +88,7 @@
   chain_id: 1
   type: test
   assets:
-    - id: f0e13421-4798-45ed-9ce5-a559cdb5133e
+    f0e13421-4798-45ed-9ce5-a559cdb5133e:
       name: Tether
       symbol: USDT
       contracts:

@@ -8,23 +8,21 @@ const (
 )
 
 type Chain struct {
-	Id       string    `yaml:"id"`
-	ParentId string    `yaml:"parent_id"`
-	Name     string    `yaml:"name"`
-	Symbol   string    `yaml:"symbol"`
-	LogoPNG  string    `yaml:"logo_png"`
-	ChainId  string    `yaml:"chain_id"`
-	Assets   []*Asset  `yaml:"assets"`
-	Type     ChainType `yaml:"type"`
+	ParentId string            `yaml:"parent_id"`
+	Name     string            `yaml:"name"`
+	Symbol   string            `yaml:"symbol"`
+	LogoPNG  string            `yaml:"logo_png"`
+	ChainId  string            `yaml:"chain_id"`
+	Assets   map[string]*Asset `yaml:"assets"`
+	Type     ChainType         `yaml:"type"`
 }
 
-func NewChain(name, symbol string, chainType ChainType, chainId string, assets ...*Asset) *Chain {
+func NewChain(name, symbol string, chainType ChainType, chainId string) *Chain {
 	return &Chain{
 		Name:    name,
 		Symbol:  symbol,
 		ChainId: chainId,
 		Type:    chainType,
-		Assets:  assets,
 	}
 }
 
@@ -60,6 +58,6 @@ func (c *Chain) IsTestNet() bool {
 	return false
 }
 
-func (c *Chain) GetChainAssets() []*Asset {
+func (c *Chain) GetChainAssets() map[string]*Asset {
 	return c.Assets
 }

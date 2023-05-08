@@ -3,10 +3,11 @@ package assets
 import (
 	"errors"
 	"github.com/GoFarsi/assets/entity"
+	"golang.org/x/exp/maps"
 )
 
 // getPaginatedChainList returns paginated list of chains with pageNumber and pageSize params
-func getPaginatedChainList(chains []*entity.Chain, pageNumber, pageSize int) (result []*entity.Chain, err error) {
+func getPaginatedChainList(chains map[string]*entity.Chain, pageNumber, pageSize int) (result []*entity.Chain, err error) {
 	totalChains := len(chains)
 	pageNumber, err = validatePageNumber(pageNumber)
 	if err != nil {
@@ -23,7 +24,7 @@ func getPaginatedChainList(chains []*entity.Chain, pageNumber, pageSize int) (re
 		end = totalChains
 	}
 
-	return chains[start:end], nil
+	return maps.Values(chains)[start:end], nil
 }
 
 // validatePageNumber will check the value of pageNumber to be greater than 0

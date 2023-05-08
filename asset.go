@@ -49,7 +49,7 @@ func (a *AssetRepo) GetMainChains(option *Option) ([]*entity.Chain, error) {
 // GetChain return chain by its id
 func (a *AssetRepo) GetChain(Id string) *entity.Chain {
 	for _, c := range a.Chains {
-		if c.ChainId == Id {
+		if c.Id == Id {
 			return c
 		}
 	}

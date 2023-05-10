@@ -44,6 +44,10 @@ func (a *Asset) GetSymbol() string {
 	return a.Symbol
 }
 
+func (a *Asset) GetLogoPNG() string {
+	return a.LogoPNG
+}
+
 func (a *Asset) GetPrimaryContractAddress() string {
 	return a.Contracts[PrimaryContractType]
 }

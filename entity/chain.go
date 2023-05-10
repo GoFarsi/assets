@@ -28,7 +28,7 @@ func NewChain(Id, name, symbol string, chainType ChainType, chainId string) *Cha
 	}
 }
 
-func (c *Chain) GetID() string {
+func (c *Chain) GetId() string {
 	return c.Id
 }
 

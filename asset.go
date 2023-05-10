@@ -93,7 +93,7 @@ func (a *AssetRepo) GetAsset(Id string) *entity.Asset {
 // applyOptionsOnChains will check Options passed to requests and apply theme to result chains
 func applyOptionsOnChains(chains map[string]*entity.Chain, option *Option) ([]*entity.Chain, error) {
 
-	if option.Pagination != nil {
+	if option != nil && option.Pagination != nil {
 		return getPaginatedChainList(chains, option.Pagination.PageNumber, option.Pagination.PageSize)
 	}
 

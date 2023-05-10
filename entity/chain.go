@@ -8,6 +8,7 @@ const (
 )
 
 type Chain struct {
+	Id       string            `yaml:"id"`
 	ParentId string            `yaml:"parent_id"`
 	Name     string            `yaml:"name"`
 	Symbol   string            `yaml:"symbol"`
@@ -17,13 +18,18 @@ type Chain struct {
 	Type     ChainType         `yaml:"type"`
 }
 
-func NewChain(name, symbol string, chainType ChainType, chainId string) *Chain {
+func NewChain(Id, name, symbol string, chainType ChainType, chainId string) *Chain {
 	return &Chain{
+		Id:      Id,
 		Name:    name,
 		Symbol:  symbol,
 		ChainId: chainId,
 		Type:    chainType,
 	}
+}
+
+func (c *Chain) GetID() string {
+	return c.Id
 }
 
 func (c *Chain) GetName() string {

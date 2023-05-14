@@ -8,7 +8,7 @@ import (
 
 const (
 	NoRepoUrl     = ""
-	GithubRepoUrl = "https://github.com/GoFarsi/assets/tree/main"
+	GithubRepoUrl = "https://raw.githubusercontent.com/GoFarsi/assets/main"
 )
 
 type logoPathPattern func(path string) string
@@ -41,5 +41,5 @@ func (a *AssetRepo) adaptLogoPath(patternFunc logoPathPattern) {
 
 // formatPathToGithubMainRepo return a formatted path of file based on GitHub main branch
 func formatFilePathByGithubRepo(path string) string {
-	return fmt.Sprintf("%s/%s?raw=true", GithubRepoUrl, path)
+	return fmt.Sprintf("%s/%s", GithubRepoUrl, path)
 }

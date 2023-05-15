@@ -1,3 +1,4 @@
+#Ethereum Main Network
 bc08bb60-ebfb-11ed-bd6d-bce92fb9ddda:
   id: bc08bb60-ebfb-11ed-bd6d-bce92fb9ddda
   parent_id: ""
@@ -65,6 +66,22 @@ bc08bb60-ebfb-11ed-bd6d-bce92fb9ddda:
       logo_png: resources/img/fa7bfc08-25dd-477d-bb83-bf0a1039b446.png
       types: [ ]
       standards:
+    c7028ca0-bd2f-454c-ab10-e35c3332c6a9:
+      id: c7028ca0-bd2f-454c-ab10-e35c3332c6a9
+      name: Matic Token
+      symbol: MATIC
+      contracts:
+        primary: 0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: {}
+      logo_png: resources/img/be0c89c9-5699-47c9-b851-b62a6a647add.png
+      types: [ ]
+      standards:
+        - ERC20
+#Binanace Main Network
 cfc035ff-52c3-4357-bebd-02ad6813d123:
   id: cfc035ff-52c3-4357-bebd-02ad6813d123
   parent_id: ""
@@ -87,6 +104,29 @@ cfc035ff-52c3-4357-bebd-02ad6813d123:
       logo_png: resources/img/c4ed735b-9c87-4735-a029-fb11fef57ecb.png
       types: []
       standards:
+#Polygan Native Network
+be0c89c9-5699-47c9-b851-b62a6a647add:
+  id: be0c89c9-5699-47c9-b851-b62a6a647add
+  name: Polygan (Matic)
+  symbol: MATIC
+  logo_png: resources/img/be0c89c9-5699-47c9-b851-b62a6a647add.png
+  type: main
+  assets:
+    8101d431-1c81-412b-80ba-c8bcec8682a6:
+      id: 8101d431-1c81-412b-80ba-c8bcec8682a6
+      name: Matic Token
+      symbol: MATIC
+      contracts:
+        primary: 0x0000000000000000000000000000000000001010
+      decimals: 10
+      metaData: null
+      description: ""
+      issuer: ""
+      links: {}
+      logo_png: resources/img/be0c89c9-5699-47c9-b851-b62a6a647add.png
+      types: []
+      standards:
+#Ethereum Goerli Network
 f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1
   parent_id: ""

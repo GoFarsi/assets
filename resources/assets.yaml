@@ -81,6 +81,20 @@ bc08bb60-ebfb-11ed-bd6d-bce92fb9ddda:
       types: [ ]
       standards:
         - ERC20
+    9b31f422-61bc-4b3b-9dfa-0b5c2344adbb:
+      id: 9b31f422-61bc-4b3b-9dfa-0b5c2344adbb
+      name: ADA
+      symbol: ADA
+      contracts:
+        primary: 0xc14777C94229582E5758C5a79b83DDE876b9BE98
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: {}
+      logo_png: resources/img/9b31f422-61bc-4b3b-9dfa-0b5c2344adbb.png
+      types: []
+      standards: []
 #Binanace Main Network
 cfc035ff-52c3-4357-bebd-02ad6813d123:
   id: cfc035ff-52c3-4357-bebd-02ad6813d123
@@ -104,6 +118,20 @@ cfc035ff-52c3-4357-bebd-02ad6813d123:
       logo_png: resources/img/c4ed735b-9c87-4735-a029-fb11fef57ecb.png
       types: []
       standards:
+    45c464d5-6bdc-497d-a4e6-ae1fa8e75cff:
+      id: 45c464d5-6bdc-497d-a4e6-ae1fa8e75cff
+      name: ADA
+      symbol: ADA
+      contracts:
+        primary: 0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/9b31f422-61bc-4b3b-9dfa-0b5c2344adbb.png
+      types: [ ]
+      standards: [ ]
 #Polygan Native Network
 be0c89c9-5699-47c9-b851-b62a6a647add:
   id: be0c89c9-5699-47c9-b851-b62a6a647add
@@ -126,6 +154,20 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       logo_png: resources/img/be0c89c9-5699-47c9-b851-b62a6a647add.png
       types: []
       standards:
+    26f431ab-123d-4c2e-84a9-45d7fdd82ec6:
+      id: 26f431ab-123d-4c2e-84a9-45d7fdd82ec6
+      name: ADA
+      symbol: ADA
+      contracts:
+        primary: 0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/9b31f422-61bc-4b3b-9dfa-0b5c2344adbb.png
+      types: [ ]
+      standards: [ ]
 #Ethereum Goerli Network
 f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1

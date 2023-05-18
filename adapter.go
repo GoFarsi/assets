@@ -6,11 +6,6 @@ import (
 	"sync"
 )
 
-const (
-	NoRepoUrl     = ""
-	GithubRepoUrl = "https://raw.githubusercontent.com/GoFarsi/assets/main"
-)
-
 type logoPathPattern func(path string) string
 
 // adaptLogoPath will format all logo paths of chains and assets by using specific pattern

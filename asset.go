@@ -3,6 +3,8 @@ package assets
 import (
 	"github.com/GoFarsi/assets/entity"
 	"golang.org/x/exp/maps"
+	"io"
+	"net/http"
 )
 
 type AssetRepo struct {
@@ -19,7 +21,19 @@ type Option struct {
 }
 
 func New(repoAddress string) *AssetRepo {
-	chains := parseAssetsByteToArray()
+
+	client := http.Client{}
+	resp, err := client.Get(YamlAddress)
+	if err != nil {
+		return nil
+	}
+	defer resp.Body.Close()
+	assetsByte, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil
+	}
+
+	chains := parseAssetsByteToArray(assetsByte)
 	asset := &AssetRepo{Chains: chains}
 
 	switch repoAddress {

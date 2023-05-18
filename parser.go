@@ -6,11 +6,8 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
-//go:embed resources/assets.yaml
-var assetsByte []byte
-
 // parseAssetsByteToArray parse the byte contents of yaml file to array of entity.Chain
-func parseAssetsByteToArray() (chains map[string]*entity.Chain) {
+func parseAssetsByteToArray(assetsByte []byte) (chains map[string]*entity.Chain) {
 	_ = yaml.Unmarshal(assetsByte, &chains)
 	return chains
 }

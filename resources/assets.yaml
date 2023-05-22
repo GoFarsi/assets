@@ -132,10 +132,10 @@ cfc035ff-52c3-4357-bebd-02ad6813d123:
       logo_png: resources/img/9b31f422-61bc-4b3b-9dfa-0b5c2344adbb.png
       types: [ ]
       standards: [ ]
-#Polygan Native Network
+#Polygon Native Network
 be0c89c9-5699-47c9-b851-b62a6a647add:
   id: be0c89c9-5699-47c9-b851-b62a6a647add
-  name: Polygan (Matic)
+  name: Polygon (Matic)
   symbol: MATIC
   logo_png: resources/img/be0c89c9-5699-47c9-b851-b62a6a647add.png
   type: main
@@ -173,7 +173,7 @@ f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1
   parent_id: ""
   name: Goerli
-  symbol: ETH
+  symbol: GoerliETH
   logo_png: resources/img/bc08bb60-ebfb-11ed-bd6d-bce92fb9ddda.png
   chain_id: 1
   type: test

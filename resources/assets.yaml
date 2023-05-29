@@ -380,6 +380,20 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       logo_png: resources/img/7e9d7868-1705-4676-a43a-54b4711f5dc3.png
       types: [ ]
       standards: [ ]
+    4fbd9b3c-514d-40c1-98b7-3e4f2324aaa3:
+      id: 4fbd9b3c-514d-40c1-98b7-3e4f2324aaa3
+      name: Decentraland (Polygon)
+      symbol: MANA
+      contracts:
+        primary: 0xA1c57f48F0Deb89f569dFbE6E2B7f46D33606fD4
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/4fbd9b3c-514d-40c1-98b7-3e4f2324aaa3.png
+      types: [ ]
+      standards: [ ]
 #Ethereum Goerli Network
 f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1

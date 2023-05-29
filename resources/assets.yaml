@@ -144,17 +144,31 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
   assets:
     8101d431-1c81-412b-80ba-c8bcec8682a6:
       id: 8101d431-1c81-412b-80ba-c8bcec8682a6
-      name: Matic Token
+      name: Matic Token (Polygon)
       symbol: MATIC
       contracts:
-        primary: 0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270
-      decimals: 10
+        primary: 0x0000000000000000000000000000000000001010
+      decimals: 18
       metaData: null
       description: ""
       issuer: ""
       links: {}
       logo_png: resources/img/be0c89c9-5699-47c9-b851-b62a6a647add.png
       types: []
+      standards:
+    864a5d61-7609-4d7b-b6df-138f7b732c42:
+      id: 864a5d61-7609-4d7b-b6df-138f7b732c42
+      name: Wrap Matic Token (Polygon)
+      symbol: WMATIC
+      contracts:
+        primary: 0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/864a5d61-7609-4d7b-b6df-138f7b732c42.png
+      types: [ ]
       standards:
     26f431ab-123d-4c2e-84a9-45d7fdd82ec6:
       id: 26f431ab-123d-4c2e-84a9-45d7fdd82ec6

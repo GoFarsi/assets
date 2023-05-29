@@ -147,7 +147,7 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       name: Matic Token
       symbol: MATIC
       contracts:
-        primary: 0x0000000000000000000000000000000000001010
+        primary: 0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270
       decimals: 10
       metaData: null
       description: ""

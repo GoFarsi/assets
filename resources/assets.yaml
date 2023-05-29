@@ -436,6 +436,20 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       logo_png: resources/img/b13427d2-360c-4fd5-bd16-b63dc3379ef0.png
       types: [ ]
       standards: [ ]
+    d6b3dbfc-91c8-4c6a-9497-bd1c82df0465:
+      id: d6b3dbfc-91c8-4c6a-9497-bd1c82df0465
+      name: Paxos Gold (Polygon)
+      symbol: PAXG
+      contracts:
+        primary: 0x553d3D295e0f695B9228246232eDF400ed3560B5
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/d6b3dbfc-91c8-4c6a-9497-bd1c82df0465.png
+      types: [ ]
+      standards: [ ]
 #Ethereum Goerli Network
 f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1

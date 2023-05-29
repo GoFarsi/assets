@@ -103,6 +103,7 @@ cfc035ff-52c3-4357-bebd-02ad6813d123:
   symbol: BNB
   logo_png: resources/img/db4461d5-4747-436c-9d7c-51c88e597813.png
   type: main
+  chain_id: 56
   assets:
     c4ed735b-9c87-4735-a029-fb11fef57ecb:
       id: c4ed735b-9c87-4735-a029-fb11fef57ecb
@@ -139,6 +140,7 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
   symbol: MATIC
   logo_png: resources/img/be0c89c9-5699-47c9-b851-b62a6a647add.png
   type: main
+  chain_id: 137
   assets:
     8101d431-1c81-412b-80ba-c8bcec8682a6:
       id: 8101d431-1c81-412b-80ba-c8bcec8682a6
@@ -217,7 +219,7 @@ f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   name: Goerli
   symbol: GoerliETH
   logo_png: resources/img/bc08bb60-ebfb-11ed-bd6d-bce92fb9ddda.png
-  chain_id: 1
+  chain_id: 5
   type: test
   assets:
     f0e13421-4798-45ed-9ce5-a559cdb5133e:

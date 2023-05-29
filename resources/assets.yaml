@@ -254,20 +254,6 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       logo_png: resources/img/3e2ea616-30de-41c0-afe3-726e80c75332.png
       types: [ ]
       standards: [ ]
-    3c56990c-3766-44c9-b781-73b599e60316:
-      id: 3c56990c-3766-44c9-b781-73b599e60316
-      name: Chain Link Token (Polygon)
-      symbol: LINK
-      contracts:
-        primary: 0xb0897686c545045aFc77CF20eC7A532E3120E0F1
-      decimals: 18
-      metaData: null
-      description: ""
-      issuer: ""
-      links: { }
-      logo_png: resources/img/3e2ea616-30de-41c0-afe3-726e80c75332.png
-      types: [ ]
-      standards: [ ]
     303b0ab2-20eb-41c3-9f2b-7084dbed069d:
       id: 303b0ab2-20eb-41c3-9f2b-7084dbed069d
       name: Uniswap (Polygon)
@@ -336,6 +322,20 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       issuer: ""
       links: { }
       logo_png: resources/img/dc178d26-60fc-4c3e-970f-98956ba80628.png
+      types: [ ]
+      standards: [ ]
+    b91740ab-207a-4ca5-a6a0-1b4ab48042a9:
+      id: b91740ab-207a-4ca5-a6a0-1b4ab48042a9
+      name:  Paxos Standard
+      symbol: PAX
+      contracts:
+        primary: 0x6F3B3286fd86d8b47EC737CEB3D0D354cc657B3e
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/b91740ab-207a-4ca5-a6a0-1b4ab48042a9.png
       types: [ ]
       standards: [ ]
 #Ethereum Goerli Network

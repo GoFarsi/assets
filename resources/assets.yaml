@@ -464,6 +464,20 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       logo_png: resources/img/7d6850f7-cea6-4c63-b95f-23431a1c7b1c.png
       types: [ ]
       standards: [ ]
+    d72e5756-383f-4c77-bfff-674c9942582d:
+      id: d72e5756-383f-4c77-bfff-674c9942582d
+      name: NEXO (Polygon)
+      symbol: NEXO
+      contracts:
+        primary: 0x41b3966B4FF7b427969ddf5da3627d6AEAE9a48E
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/d72e5756-383f-4c77-bfff-674c9942582d.png
+      types: [ ]
+      standards: [ ]
 #Ethereum Goerli Network
 f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1

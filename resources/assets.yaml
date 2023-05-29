@@ -352,6 +352,20 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       logo_png: resources/img/5c88e8f6-c691-4c49-98e9-4bdf1e84dad5.png
       types: [ ]
       standards: [ ]
+    84399cc2-b5ed-4325-92d6-2ee3c63d5592:
+      id: 84399cc2-b5ed-4325-92d6-2ee3c63d5592
+      name: Fantom Token (Polygon)
+      symbol: FTM
+      contracts:
+        primary: 0xC9c1c1c20B3658F8787CC2FD702267791f224Ce1
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/84399cc2-b5ed-4325-92d6-2ee3c63d5592.png
+      types: [ ]
+      standards: [ ]
 #Ethereum Goerli Network
 f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1

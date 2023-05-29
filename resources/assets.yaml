@@ -296,6 +296,48 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       logo_png: resources/img/1c1fa9bf-b0b5-4a3a-8a03-23f95af00d79.png
       types: [ ]
       standards: [ ]
+    dde74973-b333-4843-8c4f-47e7ac33afa4:
+      id: dde74973-b333-4843-8c4f-47e7ac33afa4
+      name: ApeCoin (Polygon)
+      symbol: APE
+      contracts:
+        primary: 0xB7b31a6BC18e48888545CE79e83E06003bE70930
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/dde74973-b333-4843-8c4f-47e7ac33afa4.png
+      types: [ ]
+      standards: [ ]
+    3e9346d7-058a-4c87-b3e0-6990aab52964:
+      id: 3e9346d7-058a-4c87-b3e0-6990aab52964
+      name: Graph Token (Polygon)
+      symbol: GRT
+      contracts:
+        primary: 0x5fe2B58c013d7601147DcdD68C143A77499f5531
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/3e9346d7-058a-4c87-b3e0-6990aab52964.png
+      types: [ ]
+      standards: [ ]
+    dc178d26-60fc-4c3e-970f-98956ba80628:
+      id: dc178d26-60fc-4c3e-970f-98956ba80628
+      name: Aave (Polygon)
+      symbol: AAVE
+      contracts:
+        primary: 0xD6DF932A45C0f255f85145f286eA0b292B21C90B
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/dc178d26-60fc-4c3e-970f-98956ba80628.png
+      types: [ ]
+      standards: [ ]
 #Ethereum Goerli Network
 f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1

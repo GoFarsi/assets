@@ -394,6 +394,20 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       logo_png: resources/img/4fbd9b3c-514d-40c1-98b7-3e4f2324aaa3.png
       types: [ ]
       standards: [ ]
+    800764a6-687e-461f-8ff4-54594325bbbb:
+      id: 800764a6-687e-461f-8ff4-54594325bbbb
+      name: Synthetix Network Token (Polygon)
+      symbol: SNX
+      contracts:
+        primary: 0x50B728D8D964fd00C2d0AAD81718b71311feF68a
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/800764a6-687e-461f-8ff4-54594325bbbb.png
+      types: [ ]
+      standards: [ ]
 #Ethereum Goerli Network
 f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1

@@ -366,6 +366,20 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       logo_png: resources/img/84399cc2-b5ed-4325-92d6-2ee3c63d5592.png
       types: [ ]
       standards: [ ]
+    7e9d7868-1705-4676-a43a-54b4711f5dc3:
+      id: 7e9d7868-1705-4676-a43a-54b4711f5dc3
+      name: Rocket Pool (Polygon)
+      symbol: RPL
+      contracts:
+        primary: 0x7205705771547cF79201111B4bd8aaF29467b9eC
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/7e9d7868-1705-4676-a43a-54b4711f5dc3.png
+      types: [ ]
+      standards: [ ]
 #Ethereum Goerli Network
 f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1

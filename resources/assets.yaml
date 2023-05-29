@@ -212,6 +212,34 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       logo_png: resources/img/fa7bfc08-25dd-477d-bb83-bf0a1039b446.png
       types: [ ]
       standards: [ ]
+    6590b95d-0e9b-4316-8457-32bc2993271f:
+      id: 6590b95d-0e9b-4316-8457-32bc2993271f
+      name: SHIB (Polygon)
+      symbol: SHIB
+      contracts:
+        primary: 0x6f8a06447Ff6FcF75d803135a7de15CE88C1d4ec
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/6590b95d-0e9b-4316-8457-32bc2993271f.png
+      types: [ ]
+      standards: [ ]
+    629bebae-b076-44d6-a5c9-bce5e310c43b:
+      id: 629bebae-b076-44d6-a5c9-bce5e310c43b
+      name: Avalanche (Polygon)
+      symbol: AVAX
+      contracts:
+        primary: 0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/629bebae-b076-44d6-a5c9-bce5e310c43b.png
+      types: [ ]
+      standards: [ ]
 #Ethereum Goerli Network
 f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1

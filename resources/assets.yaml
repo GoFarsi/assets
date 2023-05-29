@@ -240,6 +240,62 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       logo_png: resources/img/629bebae-b076-44d6-a5c9-bce5e310c43b.png
       types: [ ]
       standards: [ ]
+    3e2ea616-30de-41c0-afe3-726e80c75332:
+      id: 3e2ea616-30de-41c0-afe3-726e80c75332
+      name: Chain Link Token (Polygon)
+      symbol: LINK
+      contracts:
+        primary: 0xb0897686c545045aFc77CF20eC7A532E3120E0F1
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/3e2ea616-30de-41c0-afe3-726e80c75332.png
+      types: [ ]
+      standards: [ ]
+    3c56990c-3766-44c9-b781-73b599e60316:
+      id: 3c56990c-3766-44c9-b781-73b599e60316
+      name: Chain Link Token (Polygon)
+      symbol: LINK
+      contracts:
+        primary: 0xb0897686c545045aFc77CF20eC7A532E3120E0F1
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/3e2ea616-30de-41c0-afe3-726e80c75332.png
+      types: [ ]
+      standards: [ ]
+    303b0ab2-20eb-41c3-9f2b-7084dbed069d:
+      id: 303b0ab2-20eb-41c3-9f2b-7084dbed069d
+      name: Uniswap (Polygon)
+      symbol: UNI
+      contracts:
+        primary: 0xb33EaAd8d922B1083446DC23f610c2567fB5180f
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/303b0ab2-20eb-41c3-9f2b-7084dbed069d.png
+      types: [ ]
+      standards: [ ]
+    1c1fa9bf-b0b5-4a3a-8a03-23f95af00d79:
+      id: 1c1fa9bf-b0b5-4a3a-8a03-23f95af00d79
+      name:  Lido DAO Token (Polygon)
+      symbol: LDO
+      contracts:
+        primary: 0xC3C7d422809852031b44ab29EEC9F1EfF2A58756
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/1c1fa9bf-b0b5-4a3a-8a03-23f95af00d79.png
+      types: [ ]
+      standards: [ ]
 #Ethereum Goerli Network
 f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1

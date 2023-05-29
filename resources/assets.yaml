@@ -156,7 +156,7 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       standards:
     26f431ab-123d-4c2e-84a9-45d7fdd82ec6:
       id: 26f431ab-123d-4c2e-84a9-45d7fdd82ec6
-      name: ADA
+      name: ADA (Polygon)
       symbol: ADA
       contracts:
         primary: 0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47
@@ -166,6 +166,48 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       issuer: ""
       links: { }
       logo_png: resources/img/9b31f422-61bc-4b3b-9dfa-0b5c2344adbb.png
+      types: [ ]
+      standards: [ ]
+    6e4e0165-e132-4e92-91b7-2805c6d45a26:
+      id: 6e4e0165-e132-4e92-91b7-2805c6d45a26
+      name: USDT (Polygon)
+      symbol: USDT
+      contracts:
+        primary: 0xc2132D05D31c914a87C6611C10748AEb04B58e8F
+      decimals: 6
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/0xc2132D05D31c914a87C6611C10748AEb04B58e8F.png
+      types: [ ]
+      standards: [ ]
+    d6c172de-ee6b-4930-9c6c-98fdc61fcf60:
+      id: d6c172de-ee6b-4930-9c6c-98fdc61fcf60
+      name: Binance (Polygon)
+      symbol: BNB
+      contracts:
+        primary: 0x3BA4c387f786bFEE076A58914F5Bd38d668B42c3
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/d6c172de-ee6b-4930-9c6c-98fdc61fcf60.png
+      types: [ ]
+      standards: [ ]
+    6cb62e66-c87a-42de-9432-eac0dae63c5c:
+      id: 6cb62e66-c87a-42de-9432-eac0dae63c5c
+      name: USDC (Polygon)
+      symbol: USDC
+      contracts:
+        primary: 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174
+      decimals: 6
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/fa7bfc08-25dd-477d-bb83-bf0a1039b446.png
       types: [ ]
       standards: [ ]
 #Ethereum Goerli Network

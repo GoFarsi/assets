@@ -408,6 +408,20 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       logo_png: resources/img/800764a6-687e-461f-8ff4-54594325bbbb.png
       types: [ ]
       standards: [ ]
+    2ca62f6a-19cd-4ba4-8570-b0bff2ddeeae:
+      id: 2ca62f6a-19cd-4ba4-8570-b0bff2ddeeae
+      name: CRV (Polygon)
+      symbol: CRV
+      contracts:
+        primary: 0x172370d5Cd63279eFa6d502DAB29171933a610AF
+      decimals: 18
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/2ca62f6a-19cd-4ba4-8570-b0bff2ddeeae.png
+      types: [ ]
+      standards: [ ]
 #Ethereum Goerli Network
 f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1

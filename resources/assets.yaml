@@ -422,6 +422,20 @@ be0c89c9-5699-47c9-b851-b62a6a647add:
       logo_png: resources/img/2ca62f6a-19cd-4ba4-8570-b0bff2ddeeae.png
       types: [ ]
       standards: [ ]
+    b13427d2-360c-4fd5-bd16-b63dc3379ef0:
+      id: b13427d2-360c-4fd5-bd16-b63dc3379ef0
+      name: Gemini dollar (Polygon)
+      symbol: GUSD
+      contracts:
+        primary: 0xC8A94a3d3D2dabC3C1CaffFFDcA6A7543c3e3e65
+      decimals: 2
+      metaData: null
+      description: ""
+      issuer: ""
+      links: { }
+      logo_png: resources/img/b13427d2-360c-4fd5-bd16-b63dc3379ef0.png
+      types: [ ]
+      standards: [ ]
 #Ethereum Goerli Network
 f438b0c8-3b98-4da7-88f3-10ff760b9ff1:
   id: f438b0c8-3b98-4da7-88f3-10ff760b9ff1
